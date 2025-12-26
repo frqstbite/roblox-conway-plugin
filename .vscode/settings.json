@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/*.rpyc": true,
+    "**/*.rpa": true,
+    "**/*.rpymc": true,
+    "**/cache/": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.project.json": "${capture}.sourcemap.json",
+    "default.project.json": "sourcemap.json",
+    "selene.toml": "*.selene.yaml",
+    "wally.toml": "wally.lock"
+  }
+}

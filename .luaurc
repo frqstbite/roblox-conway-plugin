@@ -1,0 +1,10 @@
+{
+  "aliases": {
+    "pkg": "./Packages",
+    "conway": "./src",
+    "lune": "~/.lune/.typedefs/0.10.4/"
+  },
+  "lint": {
+    "LocalShadow": false
+  }
+}

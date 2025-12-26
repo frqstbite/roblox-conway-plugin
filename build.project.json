@@ -1,0 +1,9 @@
+{
+    "name": "conway",
+    "tree": {
+        "$path": "build",
+        "Packages": {
+            "$path": "Packages"
+        }
+    }
+}

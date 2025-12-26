@@ -1,0 +1,6 @@
+base: roblox
+globals:
+  # override Roblox require style with darklua string requires
+  require:
+    args:
+    - type: string

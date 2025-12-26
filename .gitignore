@@ -1,0 +1,14 @@
+# OS-specific ignores
+.DS_Store
+
+# Project place file
+/conway.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+/Packages
+/build
+
+*sourcemap.json

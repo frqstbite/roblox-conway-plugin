@@ -1,0 +1,4 @@
+std="darklua.selene"
+
+[lints]
+shadowing="allow"

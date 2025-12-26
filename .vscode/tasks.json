@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install",
+      "type": "shell",
+      "command": "rokit install; lune run install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build plugin (Development)",
+      "type": "shell",
+      "command": "lune run build --watch",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build plugin (Production)",
+      "type": "shell",
+      "command": "lune run build",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
